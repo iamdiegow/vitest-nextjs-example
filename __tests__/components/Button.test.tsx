@@ -1,7 +1,7 @@
 import { expect, test } from 'vitest'
 import { screen, render } from '@testing-library/react'
 
-import { Button } from './Button'
+import { Button } from '@/components/Button'
 
 test('it renders without crashing', () => {
 	render(<Button />)
