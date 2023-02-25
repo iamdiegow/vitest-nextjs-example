@@ -1,10 +1,10 @@
-import { expect, test } from "vitest";
-import { screen, render } from "@testing-library/react";
+import { expect, test } from 'vitest'
+import { screen, render } from '@testing-library/react'
 
-import { Button } from "./Button";
+import { Button } from './Button'
 
-test("it renders without crashing", () => {
-  render(<Button />);
-  const button = screen.getByRole("button");
-  expect(button).toBeInTheDocument();
-});
+test('it renders without crashing', () => {
+	render(<Button />)
+	const button = screen.getByRole('button')
+	expect(button).toBeInTheDocument()
+})
